@@ -19,6 +19,7 @@
             var imdbscores = ["6.4", "5.4", "5.4", "4.2", "5.4", "2.4", "4.8", "6.1", "7.3", "4.6", "3.2", "4.3", "1.8", "4.5", "4.6", "3.2", "3.8", "6.6", "6.3", "6.9", "7", "7.1", "7.4", "6.8", "3.7", "6.5", "4.8"]
             var tomatoscores = ["36%", "9%", "5%", "6%", "46%", "3%", "7%", "23%", "77%", "22%", "", "", "", "", "", "", "", "56%", "57%", "74%", "63%", "62%", "5%", "55%", "10%", "53%", "17%"]
             var pictures = ["https://m.media-amazon.com/images/M/MV5BMjM1ZmI4NmUtMDJmMC00N2NkLTg1NGYtMDUyZDZlMmExNGNiXkEyXkFqcGdeQXVyMTkzODUwNzk@._V1_SY1000_CR0,0,677,1000_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BMzc3MjYxNzg2N15BMl5BanBnXkFtZTcwNzQyMTkwNA@@._V1_SY1000_CR0,0,675,1000_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BMjExMTYyMzk3MV5BMl5BanBnXkFtZTcwMzI2Njg0Mg@@._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BNmY2YmUyNjQtNDI2OS00MGVmLTkzMWMtOGJmNzUyY2JmN2Y5XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SY1000_CR0,0,674,1000_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BNzU4OWUzODYtZDllZC00NTY5LTk4YmMtMjFlNzQzMDZhODIxXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SY1000_CR0,0,676,1000_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BYWRkNzY5NWQtNmY3Yy00ZmU0LWJmYTUtZjhlNmRlMDIyZjgxL2ltYWdlXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SY1000_SX750_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BZDU4NThjMDItM2EyYi00M2ZkLTkxZDctNzhiNzdhZDM2ZmIyXkEyXkFqcGdeQXVyMjU5OTg5NDc@._V1_SY1000_SX760_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BNDEwNGRlNjQtZjI4OC00ZmMxLWEyYmQtNGI1NDk4YmUyYTNkXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SY1000_CR0,0,676,1000_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BMjAxMDAzMjcwNF5BMl5BanBnXkFtZTcwNDQ5NzQ2NA@@._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BY2M3OGE1M2UtZDZkNC00ODU2LTlmYWItNDgwNTg4NGNmZmVmXkEyXkFqcGdeQXVyNjQzNDI3NzY@._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BZTU2ZjYwMWMtN2MyNS00MzcwLTg2MWUtZTg0ODcwMjhkZjFkXkEyXkFqcGdeQXVyNDUxNjc5NjY@._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BNjEwZDQ1Y2ItNjIxNS00YWJjLThmMTYtNWY2NjQ5N2UyNWVkXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BNDJlNTFkZGItMTExNi00OGU1LWFkYmEtNDBlMzRmMmViOGNhXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BMjIyODk3NTEyN15BMl5BanBnXkFtZTcwMTgzMzU0Mw@@._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BMTg4NjExMDAwMV5BMl5BanBnXkFtZTcwOTE2ODUyMQ@@._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BMmUwNDYxYzYtNDllZi00ZGU1LThhNGMtZmQ4MWY3NTdkZGExXkEyXkFqcGdeQXVyMTQ2MjQyNDc@._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BMGEzOTVkNzgtMDIzOC00Y2IyLTkwZWQtZmU0MjBmODU1MWMwXkEyXkFqcGdeQXVyMTQ2MjQyNDc@._V1_.jpg", "", "https://m.media-amazon.com/images/M/MV5BODExYTM0MzEtZGY2Yy00N2ExLTkwZjItNGYzYTRmMWZlOGEzXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_CR0,0,673,1000_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BNzMxMDc4OGItODBiZi00NjYyLThiMzctMzQwZjgzYWE0MzQzXkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BMGQwNDNkMmItYWY1Yy00YTZmLWE5OTAtODU0MGZmMzQ1NDdkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,666,1000_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BMDNjMTEyZDQtN2M0Zi00NTIzLTgzOTktNDAyNGM3MGEwYjM4XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BOWExZTg4ZWYtOTQxMi00YWZkLTkxYzgtOTg1MTUxNzNiNDcxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,665,1000_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BOTFkYzBkYTYtNTU4Yi00MDUyLWEyMmYtNzU1MzlkNWM0ZmRkXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BNjkxNzQ1ODE2OF5BMl5BanBnXkFtZTgwNDM2Njk5MTE@._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BZDMxZGFhODgtNjZkNC00MTA0LTliMWYtN2I2NDJkNWEyZWM0XkEyXkFqcGdeQXVyMjMyNTkxNzY@._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BYzMxNGY4NWQtYjUxOC00ZWYwLWExZTYtNmEwODg5MzFmZmEyXkEyXkFqcGdeQXVyNjU0NTI0Nw@@._V1_.jpg"]
+            var myVideo = videos[magicnumber]
             var wrong = [];
             var right = [];
             var guessed = ""
@@ -34,6 +35,7 @@
             var movieC = (movieB.replace(/ /g, String.fromCharCode(1)));
             var mysteryWord = (movieC.replace(/A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z/g, "_"));
             var letters = movieB.split("");
+            var videoLink = videos[magicnumber];
         document.querySelector("#puzzle").innerHTML = mysteryWord;
             if(!points){
                 var points = 0;
@@ -59,9 +61,10 @@ function startGame() {
     zzz = 0;
     document.querySelector("#score").innerHTML = 
         "Scores: <br> Wins: "+wins+"<br> Losses: "+losses+"<br> Total Points: "+points;
-    
+
+
     }
-    //guessing letter, limiting to letters
+        //guessing letter, limiting to letters
     document.onkeyup = function(event){
     document.querySelector("#startbutton").innerHTML = "";    
     document.querySelector("#score").innerHTML = 
@@ -69,7 +72,7 @@ function startGame() {
     var guess = event.key.toUpperCase();
         if (alphabet.includes(guess)){
             guessed = guess;
-            
+                
             //document.querySelector("#guess").innerHTML = guessed;
             
 //counting letters
@@ -78,7 +81,7 @@ function startGame() {
                 //document.querySelector("#four").innerHTML = count;
         }
 
-        
+            
 //not there
 
         if (count == 0 && wrong.includes(guessed) == false){
@@ -194,21 +197,19 @@ function startGame() {
     wrongqs = wrong.length;
     partial = "";
     points = points + 10 - wrongqs;
- 
-//    if (videos[magicnumber].split(0,17)=="https://www.youtube"){
-  //        videoLink="<iframe class=\"youtube-player\" type=\"text/html\" src=\"http://www.youtube.com/embed/" + video[magicnumber].split(11) +"?wmode=opaque&autohide=1&autoplay=1\" frameborder=\"0\">&lt;br /&gt;</iframe>"
-//    }
- //   else   {
-   //   videoLink="document.querySelector(\"#temp\").innerHTML = \"<video id=\"myVideo\" width=\"1280\" height=\"704\" controls=\"controls\"><source src=\""+videos[magicnumber] +"\" type=\"video/mp4\">"
-    // document.querySelector("#temp").innerHTML = videoLink
-  //   var vid = document.getElementById("myVideo");
-  //  vid.autoplay = true;
-  //  vid.load();
-//}
-
+   
+    if (videos[magicnumber].split(0,17)=="https://www.youtube"){
+        videoLink="<iframe class='youtube-player' 'player' width=\"1260\" height=\"1135\" src=\"http://www.youtube.com/embed/" + myvideo.slice(11) +  "rZhAnKz3hGY?enablejsapi=1&autoplay=1&vq=hd360\" frameborder=\"0\" allowfullscreen 'onReady': onPlayerReady, 'onPlaybackQualityChange': onPlayerPlaybackQualityChange, 'onStateChange': onPlayerStateChange, 'onError': onPlayerError></iframe>"
+        //<iframe class='youtube-player' type='text/html' width=900 height=600 src='http://www.youtube.com/embed/JW5meKfy3fY?autoplay=1&vq=hd360' frameborder='0'>&lt;br /&gt;</iframe>"
+        }
+   else   {
+    videoLink="<video id=\""+myVideo +"\" width=\"1280\" height=\"704\" controls=\"controls\"><source src=\""+videos[magicnumber] +"\" type=\"video/mp4\"><br>var vid = document.getElementById(\""+myVideo+"\");<br>vid.autoplay = true;<br>vid.load()";
+   document.querySelector("#temp").innerHTML = videoLink;
+       }
+document.querySelector("#temp").innerHTML = videoLink;
  
     setTimeout(function() {
-    var replay = confirm("You Won! \n Play again?");
+        var replay = confirm("You Won! \n Play again?");
     if (replay = true) {
         replay = "";
         document.querySelector("#wronganswers").innerHTML ="";
