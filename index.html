@@ -7,38 +7,55 @@
     <!-- Added a link to Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script type="text/javascript" src="assets\javascript\game.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
     <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Hangman</title>
     
-        <!-- Added a link to Bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    
+        
     </head>
+    <body background="assets/images/movie-theater-background.jpg" id="bg"></body>
     <body>
-    
-            <h1 id="turtle" class="text-center">Hangman</h1>
-            <h3 class="text-center">Guess the bad movies</h3>
-            <center><h3 id="movie"></h3></center>
-            <center><h3 id="puzzle" letter-spacing: 2px></h3></center>
-            <h3 id="guess"></h3>
-            <h3 id="four"></h3>
-            <h3 id="wronganswers"></h3>
+            <div = "row" "col-8">
+            <h1 id="turtle" class="text-center"><center><img class=popcorn src="assets/images/popcorn1.gif">Bad and Wild Movies Hangman<img src="assets/images/popcorn2.gif" /></h1>
+            </center></div>
+            <div = "row" "col-8"></div>
+            <div = "row" "col-8"></div>
+            <div = "row" "col-med-8"><center><h3 id="puzzle"></h3></center></div>
+            <h3 class="text-center"></h3>
+            <!--<video id="myVideo" width="320" height="176" controls="controls">
+                    <source src="https://video-http.media-imdb.com/MV5BODE0MjRmZWUtMDNhYS00YTAyLWFiNTYtNDRiYjhlOGI5NmE2XkExMV5BbXA0XkFpbWRiLWV0cy10cmFuc2NvZGU@.mp4?Expires=1530143338&Signature=BZqGdTIZtRFVOilMGuvCBspIIs5Pdl4UCfGV5hTeq01i-XyberzlcTOL5AqRniIJxBR3p2OOiz8LZseh78~J~2UCGKv9v151ObuDvtKfxU4-KQlr775kGWLI3NaYevWc4ujkfG9xlYEDqxUirzsYwrPD3Ilv3SKNLH72HbKyMWM_&Key-Pair-Id=APKAILW5I44IHKUN2DYA
+                    " type="video/mp4">
+                <iframe class="youtube-player" type="text/html" src="http://www.youtube.com/embed/rZhAnKz3hGY?wmode=opaque&autohide=1&autoplay=1" frameborder="0">&lt;br /&gt;</iframe>"
+                -->
+            
+            <center><div = "row" "col-6"><h3 id="gameOver"></h3></center>
+                              
+            <div = "row" "col-2"><h3 id="wronganswers"></h3></div>
+            <div = "row" "col-8"></div>
+            <div = "row" "col-2"><h3 id="score"></h3></div>
+            <div = "row" "col-2"><h3 id="hints"></h3></div>
+            <center><h6 id="picture"></h6>
+                <h3 div id="startbutton">
+                    <button id="start" onkeypress="gameStart()"><h2>Press any key to start!</h2></button>
+                </div>
+
+                </h3></center>
+            
             <h3 id="rightanswers"></h3>
-            <h1 id="gameOver"></h4>
             <h3 id="temp"></h3>
-                <script type="text/javascript">
-    
+            
+        
+            <script type="text/javascript" src="assets/javascript/game.js"></script>            
+                  
                
-                // printing out puzzle prompt
+                
                 
 
 
-            </script>
-            
+           
         </body>
         </html>
-        

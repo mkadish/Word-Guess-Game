@@ -1,0 +1,79 @@
+body {
+    background: url(../images/movie-theater-background.jpg) no-repeat stretch;
+    width: 100%;    
+}
+
+#turtle {
+    font-family: 'Courgette', cursive;
+    color: silver;
+ }
+
+.popcorn {
+    width: 5%;
+}
+
+#bg {
+    width: 100%;
+}
+
+
+#puzzle{
+margin-top: 20px;    
+letter-spacing: 2px;
+font-size: 45px;
+margin-left: 150px;
+margin-right: 475px;
+width: 500px;
+}
+
+#wronganswers{
+margin: 20px;
+width: 275px;
+color: grey;
+font-size: 25px;
+position: absolute;
+font-weight: bold;
+top: 30px;
+}
+
+#hints{
+    margin: 20px;
+    width: 275px;
+    color: whitesmoke;
+    font-size: 15px;
+    position: absolute;
+    font-weight: bold;
+    margin-bottom: 1px;
+    top: 150px;
+}
+
+#score{
+    margin: 20px;
+    position: absolute;
+    font-size: 25px;
+    left: 85%;
+    font-weight: bold;
+    /*right: 800px;*/
+    /*float: right;*/
+    width: 275px;
+    color: grey;
+    top: 30px;        }
+
+#gameOver{
+    position: relative;
+    bottom: 15px;
+    width: 700px;
+    font-size: 40px;
+        }
+
+#picture{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+
+#temp{
+    position: fixed;
+    top: 50px;
+    right:350px;
+}
